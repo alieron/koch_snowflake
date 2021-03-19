@@ -52,7 +52,7 @@ def generate_koch(base, generations):
 
 
 # base = np.array([[0, 0], [1, 0]])  # Horizontal Line
-base = np.array([[0, 0], [1, 0], [0.5, -(3 ** 0.5) / 2], [0, 0]])  # Triangle
+# base = np.array([[0, 0], [1, 0], [0.5, -(3 ** 0.5) / 2], [0, 0]])  # Triangle
 # base = np.array([[0, 0], [1 / 3, 0], [1 / 2, (3 ** 0.5) / 6], [2 / 3, 0], [1, 0]])
 
 points = generate_koch(base, 5)

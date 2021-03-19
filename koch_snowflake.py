@@ -36,9 +36,8 @@ def new_gen(points):
         point_c = findC(point_b, point_d)
 
         temp_points = np.concatenate(
-            [temp_points, [point_b, point_c, point_d, point_e]]
-        )
-        ### Order point_a, point_b, point_c, point_d, point_e
+            [temp_points, [point_b, point_c, point_d, point_e]])
+        # Order point_a, point_b, point_c, point_d, point_e
 
     return temp_points
 
